@@ -543,8 +543,8 @@ class FrontController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
         curl_setopt($ch, CURLOPT_HTTPHEADER,
-                    array("X-Api-Key:test_0ad763f7a65e8c06847ed19970b",
-                        "X-Auth-Token:test_18eb45927dbb7fcd74327c64ed4"));
+                    array("key",
+                        "Token"));
         $payload = Array(
             'purpose' => 'Buy Product',
             'amount' => $mrp,

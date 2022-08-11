@@ -184,7 +184,7 @@
                                                 </div>
                                                 <div class="priceRow">
                                                     <div class="product-price">
-                                                        <span class="money"> &#8377;{{$list->mrp}}</span>
+                                                        <span class=""> &#8377;{{$list->mrp}}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -278,9 +278,7 @@
                
                 <div class="footer-bottom">
                 	<div class="row">
-                    	<!--Footer Copyright-->
-	                	<div class="col-12 col-sm-12 col-md-12 col-lg-12 order-1 order-md-0 order-lg-0 order-sm-1 copyright text-center"><span></span> <a href="templateshub.net">Templates Hub</a></div>
-                        <!--End Footer Copyright-->
+                    	
                     </div>
                 </div>
             </div>

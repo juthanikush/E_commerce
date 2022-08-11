@@ -46,11 +46,11 @@
                         <td><a href="{{url('admin/product/pro_attr')}}/{{$list->id}}">{{$list->name}}</a></td>
                         <td><img src="{{asset('storage/media/product/'.$list->main_image)}}" height="150px" width="150px" alt="" srcset=""></td>
                         <td><a href="{{url('admin/product/edit')}}/{{$list->id}}" class="white btn btn-primary">Edit</a> 
-                        <!-- @if($list->status==1)
+                        @if($list->status==1)
                         <a href="{{url('admin/product/status')}}/{{$list->id}}/{{0}}" class="white btn btn-secondary">Deactive</a> 
                         @else
                         <a href="{{url('admin/product/status')}}/{{$list->id}}/{{1}}" class="white btn btn-warning">Active</a> 
-                        @endif -->
+                        @endif
                         <a href="{{url('admin/product/delete')}}/{{$list->id}}" class="white btn btn-danger">Delete</a></td>
                     </tr>
                     @php

@@ -44,11 +44,11 @@
                         <td>{{$list->athara_cart_no}}</td>
                         
                         <td>
-                        <!-- @if($list->status==1)
+                        @if($list->status==1)
                         <a href="{{url('admin/vendoer/status')}}/{{$list->id}}/{{0}}" class="white btn btn-secondary">Deactive</a> 
                         @else
                         <a href="{{url('admin/vendoer/status')}}/{{$list->id}}/{{1}}" class="white btn btn-warning">Active</a> 
-                        @endif -->
+                        @endif
                         <a href="{{url('admin/vendoer/delete')}}/{{$list->id}}" class="white btn btn-danger">Delete</a></td>
                         
                     </tr>

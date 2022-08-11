@@ -44,11 +44,11 @@
                         <td>{{$list->sub_category_name}}</td>
                         <td>{{$list->category_name}}</td>
                         <td><a href="{{url('admin/sub_category/edit')}}/{{$list->id}}" class="white btn btn-primary">Edit</a> 
-                        <!-- @if($list->status==1)
+                        @if($list->status==1)
                         <a href="{{url('admin/sub_category/status')}}/{{$list->id}}/{{0}}" class="white btn btn-secondary">Deactive</a> 
                         @else
                         <a href="{{url('admin/sub_category/status')}}/{{$list->id}}/{{1}}" class="white btn btn-warning">Active</a> 
-                        @endif -->
+                        @endif
                         <a href="{{url('admin/sub_category/delete')}}/{{$list->id}}" class="white btn btn-danger">Delete</a></td>
                     </tr>
                     @php

@@ -99,7 +99,7 @@ function minus_add_to_cart(id)
         success:function(result){
             if(result.msg=="success")
             {
-                $('.money').html(result.mrp);
+                $('#money').html(' &#8377;'+result.mrp);
                 $('#money1').html(' &#8377;'+result.mrp);
                 $('#price'+id).html(' &#8377;'+result.price);
             }

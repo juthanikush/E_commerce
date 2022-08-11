@@ -43,11 +43,11 @@
                         <td>{{$i}}</td>
                         <td>{{$list->size}}</td>
                         <td><a href="{{url('admin/size/edit')}}/{{$list->id}}" class="white btn btn-primary">Edit</a> 
-                        <!-- @if($list->status==1)
+                        @if($list->status==1)
                         <a href="{{url('admin/size/status')}}/{{$list->id}}/{{0}}" class="white btn btn-secondary">Deactive</a> 
                         @else
                         <a href="{{url('admin/size/status')}}/{{$list->id}}/{{1}}" class="white btn btn-warning">Active</a> 
-                        @endif -->
+                        @endif
                         <a href="{{url('admin/size/delete')}}/{{$list->id}}" class="white btn btn-danger">Delete</a></td>
                     </tr>
                     @php

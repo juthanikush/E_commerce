@@ -43,7 +43,7 @@
                             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12">
                                 <input type="submit" class="btn mb-3" value="Sign In">
                                 <p class="mb-4">
-									<a href="{{url('forget_password')}}" id="RecoverPassword">Forgot your password?</a> &nbsp; | &nbsp;
+									
 								    <a href="{{url('vendoer_reigistrashion')}}" id="customer_register_link">Create account</a>
                                 </p>
                             </div>
